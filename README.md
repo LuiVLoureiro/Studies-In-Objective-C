@@ -1,5 +1,3 @@
-﻿# Studies in Objective C
-
 # Studies in Objective-C
 
 This repository contains a comprehensive set of programs and exercises in Objective-C, covering a variety of concepts and programming techniques. The directory structure and file organization reflect a range of topics from basic data types to more complex structures and algorithms. Below is an overview of the main programs and files included in the repository.
