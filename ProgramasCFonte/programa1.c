@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+	int idade;
+
+	// fflush(stdout); É NECESSÁRIO PARA TIRAR O BUFFERING DA ENTRADA DE DADOS
+	// PORQUE OS DADOS SÃO ARMAZENADOS TEMPORARIAMENTE EM UM BUFFER E SÓ SÃO
+	// EXIBIDOS QUANDO O BUFFER É LIBERADO
+
+	// BUFFER É UMA ÁREA DA MEMÓRIA TEMPORÁRIA USADA PARA ARMAZENAR DADOS
+	// QUE ESTÃO SENDO TRANSFERIDOS DE DUAS PARTES DO SISTEMA
+	// TECLADO, MONITOR, DISCO RIGIDO, ETC...
+	// O BUFFER É UMA ZONA INTERMEDIÁRIA ONDE OS DADOS PODEM SER PROCESSADOS OU
+	// TRANSFERIDOS AO DESTINO FINAL
+
+	printf("Qual e sua idade?\n");
+	fflush(stdout);
+	scanf("%d", &idade);
+	printf("Entao sua idade e %d", idade);
+
+	return 0;
+
+}
